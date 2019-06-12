@@ -5,7 +5,7 @@ It saves sql objects as sql scripts in local repo folder. Actions of downloading
 - SchemaPullExecutor - .NET Core 2.2 – console app – an example how to utilize mentioned projects
 ## Schema Getter
 - generated scripts have sql module create date and last modify date
-- sql that gets modules data:
+- sql that gets [modules](https://docs.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-sql-modules-transact-sql?view=sql-server-2017) data:
 ```
 select 
 	[db] = db_name(),
@@ -29,6 +29,6 @@ order by
 -	Screenshots from GitKraken
 
 
-![alt text](https://github.com/wit-eks/MSSqlServerDbSchemaGitter/blob/master/_assets/first-push.png)
-![alt text](https://github.com/wit-eks/MSSqlServerDbSchemaGitter/blob/master/_assets/trigger-modified.png)
-![alt text](https://github.com/wit-eks/MSSqlServerDbSchemaGitter/blob/master/_assets/deleted-copy-of-sp.png)
+![first-push.png](https://github.com/wit-eks/MSSqlServerDbSchemaGitter/blob/master/_assets/first-push.png)
+![trigger-modified.png](https://github.com/wit-eks/MSSqlServerDbSchemaGitter/blob/master/_assets/trigger-modified.png)
+![deleted-copy-of-sp.png](https://github.com/wit-eks/MSSqlServerDbSchemaGitter/blob/master/_assets/deleted-copy-of-sp.png)
