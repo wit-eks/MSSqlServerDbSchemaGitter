@@ -1,7 +1,7 @@
 # Simple SQL Server Db objects downloader and git pusher
-It saves sql objects as sql scripts in local repo folder. Actions of downloading the schema and pushing the changes to the repo need to be scheduled. Example of use presented in SchemaPullExecutor project. There are 3 projects:
--	GitPusher - .NET Standard 2.0 – pushing local folder changes to the remote repo
--	SchemaGetter - .NET Standard 2.0 – sql modules download and to file saver
+It saves sql objects as sql scripts in local repo folder. Actions of downloading the schema and pushing the changes to the repo need to be scheduled. The repo should be cloned to local folder manually. Example of use presented in SchemaPullExecutor project. There are 3 projects:
+- GitPusher - .NET Standard 2.0 – pushing local folder changes to the remote repo
+- SchemaGetter - .NET Standard 2.0 – sql modules download and to file saver
 - SchemaPullExecutor - .NET Core 2.2 – console app – an example how to utilize mentioned projects
 ## Schema Getter
 - generated scripts have sql module create date and last modify date
