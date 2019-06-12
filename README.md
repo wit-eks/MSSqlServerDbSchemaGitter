@@ -20,8 +20,8 @@ from
 	sys.sql_modules m
 inner join
 	sys.objects o on m.object_id = o.object_id
-where 1=1
-	
+where 
+	1=1
 order by 
 	o.type
 ```
