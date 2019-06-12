@@ -27,3 +27,8 @@ order by
 ```
 ## GitPusher
 -	Screenshots from GitKraken
+
+
+![alt text](https://github.com/wit-eks/MSSqlServerDbSchemaGitter/blob/master/_assets/first-push.png)
+![alt text](https://github.com/wit-eks/MSSqlServerDbSchemaGitter/blob/master/_assets/trigger-modified.png)
+![alt text](https://github.com/wit-eks/MSSqlServerDbSchemaGitter/blob/master/_assets/deleted-copy-of-sp.png)
